@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = [".gitignore", ".dev.ipynb"]
+
+[project]
+name = "FullSignatureProtocols"
+version = "0.0.1"
+authors = [
+  { name="Johannes Langer", email="johannes.langer@uni-bamberg.de" },
+]
+description = "This Package offers the FullSignatureProtocol class, which serves as an alterative to Python's builtin Protocol class, offering type-checks over method signatures."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/johannes-langer/full-signature-protocols"
+Issues = "https://github.com/johannes-langer/full-signature-protocols/issues"
