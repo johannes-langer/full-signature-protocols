@@ -1,2 +1,5 @@
 .dev.ipynb
 .DS_Store
+dist
+build
+FullSignatureProtocols.egg-info
