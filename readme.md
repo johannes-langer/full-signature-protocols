@@ -2,6 +2,12 @@
 
 This Package offers the FullSignatureProtocol class, which serves as an alterative to Python's builtin Protocol class, offering type-checks over method signatures.
 
+## Installation
+
+```bash
+python -m pip install git+https://github.com/johannes-langer/full-signature-protocols
+```
+
 ## Usage
 
 You can use the `FullSignatureProtocol` class like you would use the [`Protocol` class](https://typing.python.org/en/latest/spec/protocol.html). In addition to the usual type checks, `FullSignatureProtocol` also checks the signatures of methods in the protocol, e.g.:
