@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+FullSignatureProtocols/FullSignatureProtocols.py
+FullSignatureProtocols/__init__.py
+FullSignatureProtocols.egg-info/PKG-INFO
+FullSignatureProtocols.egg-info/SOURCES.txt
+FullSignatureProtocols.egg-info/dependency_links.txt
+FullSignatureProtocols.egg-info/top_level.txt

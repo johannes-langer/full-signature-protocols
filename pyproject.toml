@@ -19,7 +19,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 license = "GPL-3.0"
-license-file = LICEN[CS]E
 
 [project.urls]
 Homepage = "https://github.com/johannes-langer/full-signature-protocols"
